@@ -1,0 +1,32 @@
+{
+	"name": "node-weather-app",
+	"version": "2.0.0",
+	"description": "Pratik ",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon src/app.js -e js,hbs",
+		"start": "node src/app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"keywords": [],
+	"author": "Pratik Mundokar",
+	"license": "ISC",
+	"bugs": {
+		"url": ""
+	},
+	"homepage": "",
+	"devDependencies": {
+		"eslint": "^5.13.0",
+		"nodemon": "^1.18.10"
+	},
+	"dependencies": {
+		"axios": "^0.18.0",
+		"dotenv": "^6.2.0",
+		"express": "^4.16.4",
+		"hbs": "^4.0.3"
+	}
+}
